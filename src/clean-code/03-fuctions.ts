@@ -35,8 +35,8 @@
     }
 
 
-    const getPayAmount = ({ isDead = false, isSeparated = true, isRetired = false }) => {
-        return isDead ? 1500 : isSeparated ? 2500 : isRetired ? 3000 : 4000;        
+    const getPayAmount = ({ isDead = false, isSeparated = true, isRetired = false }): number => {
+        return isDead ? 1500 : isSeparated ? 2500 : isRetired ? 3000 : 4000;
     }
 
 
