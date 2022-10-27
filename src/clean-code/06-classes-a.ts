@@ -64,6 +64,6 @@
         'M',
         new Date('1988-02-27'));
 
-    console.log({ userSettings, areCredentialsValid: userSettings.checkCredentials()})
+    //console.log({ userSettings, areCredentialsValid: userSettings.checkCredentials()})
 
 })();
